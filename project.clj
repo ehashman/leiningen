@@ -8,7 +8,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[leiningen-core "2.7.1"]
                  [org.clojure/data.xml "0.0.8"]
-                 [commons-io "2.4"]
+                 [commons-io "2.5"]
                  [bultitude "0.2.8"]
                  [stencil "0.5.0" :exclusions [org.clojure/core.cache]]
                  [org.apache.maven.indexer/indexer-core "5.1.1"
