@@ -15,6 +15,7 @@
                   :exclusions [org.apache.maven.wagon/wagon-provider-api]]
                  [com.hypirion/io "0.3.1"]
                  [org.slf4j/slf4j-nop "1.7.22"] ; wagon-http uses slf4j
+                 [commons-io "2.5"]
                  ;; we pull this in transitively but want a newer version
                  [org.clojure/tools.macro "0.1.5"]]
   :scm {:dir ".."}
